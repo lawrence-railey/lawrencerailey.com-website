@@ -1,0 +1,33 @@
+# Private contact-mailer configuration and runtime state (at any depth).
+config.php
+contact-config.php
+*.local.php
+*.private.php
+secrets.php
+credentials.php
+portfolio-contact/
+last-error.json
+
+# Environment files and private keys. Keep sanitized examples versioned.
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+
+# Local tools, scratch files, caches, and generated deployment archives.
+/.codex/
+/.tmp/
+/NVIDIA Corporation/
+__pycache__/
+*.py[cod]
+node_modules/
+*.log
+/*.zip
+Thumbs.db
+.DS_Store
