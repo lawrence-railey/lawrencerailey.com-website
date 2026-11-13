@@ -1,0 +1,4 @@
+Options -Indexes
+<FilesMatch "^(contact-core\.php|error_log)$">
+    Require all denied
+</FilesMatch>
